@@ -108,15 +108,9 @@ function Cart({
 const mapStateToProps = state => ({
   products: state.cart.map(product => ({
     ...product,
-    // subtotal: product.price * product.amount,
     subtotal: formatPrice(product.price * product.amount),
-    // priceFormatted: product.price,
     priceFormatted: formatPrice(product.price),
   })),
-  // total: state.cart.reduce(
-  //   (total, product) => total + product.price * product.amount,
-  //   0
-  // ),
   total: formatPrice(
     state.cart.reduce(
       (total, product) => total + product.price * product.amount,

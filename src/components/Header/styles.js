@@ -16,7 +16,11 @@ export const Container = styled.View`
   padding: 20px;
 `;
 
-export const Logo = styled.Image.attrs({
+export const Logo = styled.TouchableWithoutFeedback`
+  width: 185px;
+`;
+
+export const LogoImage = styled.Image.attrs({
   source: logo,
   resizeMode: 'cover',
 })`

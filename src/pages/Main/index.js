@@ -35,7 +35,6 @@ class Main extends React.Component {
 
     const data = response.data.map(product => ({
       ...product,
-      // priceFormatted: product.price,
       priceFormatted: formatPrice(product.price),
     }));
 
@@ -55,8 +54,7 @@ class Main extends React.Component {
       <Product key={item.id}>
         <ProductImage source={{ uri: item.image }} />
         <ProductTitle>{item.title}</ProductTitle>
-        {/* <ProductPrice>{item.price}</ProductPrice> */}
-        <ProductPrice>{formatPrice(item.price)}</ProductPrice>
+        <ProductPrice>{item.priceFormatted}</ProductPrice>
         <AddButton onPress={() => this.handleAddProduct(item.id)}>
           <ProductAmount>
             <Icon name="add-shopping-cart" color="#FFF" size={20} />
