@@ -57,7 +57,7 @@ O layout do projeto está em anexo com esse desafio. O arquivo `.sketch` (no dir
 ### Home
 
 ![Home](/assets/home2.png)
-Esta é a primeira tela, onde encontram-se todos os produtos vindos da API, podendo adicionar os produtos no carrinho.
+Esta é a primeira tela, onde encontram-se todos os produtos vindos da API numa listagem horizontal, podendo adicionar os produtos no carrinho.
 
 ### Carrinho
 
