@@ -52,7 +52,7 @@ export const ProductControls = styled.View`
 export const ProductControlButton = styled.TouchableOpacity``;
 
 export const ProductAmount = styled.TextInput.attrs({
-  readnonly: true,
+  readonly: true,
 })`
   background: #fff;
   padding: 5px;

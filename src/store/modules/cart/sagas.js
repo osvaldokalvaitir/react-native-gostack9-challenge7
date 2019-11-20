@@ -31,6 +31,7 @@ function* addToCart({ id }) {
     const data = {
       ...response.data,
       amount: 1,
+      // priceFormatted: response.data.price,
       priceFormatted: formatPrice(response.data.price),
     };
 
