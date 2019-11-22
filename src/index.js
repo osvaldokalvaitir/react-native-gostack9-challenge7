@@ -1,8 +1,5 @@
 import React from 'react';
 
-import 'intl';
-import 'intl/locale-data/jsonp/pt-BR';
-
 import { Provider } from 'react-redux';
 import './config/ReactotronConfig';
 import { StatusBar } from 'react-native';
