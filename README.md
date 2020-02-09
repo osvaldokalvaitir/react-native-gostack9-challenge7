@@ -22,11 +22,11 @@ Utilize ESLint, Prettier, EditorConfig, React Navigation e todas outras ferramen
 
 ### Layout
 
-O layout do projeto está em anexo com esse desafio. O arquivo `.sketch` (no diretório `assets`) pode ser aberto no Figma, que é uma ferramenta de prototipação online.
+O layout do projeto está em anexo com esse desafio. O arquivo `.sketch` (no diretório `.github/assets`) pode ser aberto no Figma, que é uma ferramenta de prototipação online.
 
 ### Resultado:
 
-<img src="assets/demo.gif" height="400">
+<img src=".github/assets/demo.gif" height="400">
 
 ## Índice
 
@@ -56,12 +56,12 @@ O layout do projeto está em anexo com esse desafio. O arquivo `.sketch` (no dir
 
 ### Home
 
-![Home](/assets/home2.png)
+![Home](/.github/assets/home2.png)
 Esta é a primeira tela, onde encontram-se todos os produtos vindos da API numa listagem horizontal, podendo adicionar os produtos no carrinho.
 
 ### Carrinho
 
-![Cart](/assets/cart2.png)
+![Cart](/.github/assets/cart2.png)
 Nesta tela, encontram-se todos os produtos que são adicionados ao carrinho, podendo alterar a quantidade ou excluir o produto e também voltar para a página inicial.
 
 ## Desenvolvimento
