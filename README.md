@@ -1,145 +1,68 @@
-# React Native - Desafio 7 (Novo)
+<h1 align="center">
+    <img src="/.github/assets/logo.png"
+    width="200px"
+    alt="Logo" />
+</h1>
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/react-native-desafio7-novo/blob/master/LICENSE)
-![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/react-native-desafio7-novo.svg)
-![](https://img.shields.io/github/last-commit/osvaldokalvaitir/react-native-desafio7-novo.svg?color=red)
-![](https://img.shields.io/github/languages/top/osvaldokalvaitir/react-native-desafio7-novo.svg?color=yellow)
-![](https://img.shields.io/github/languages/count/osvaldokalvaitir/react-native-desafio7-novo.svg?color=lightgrey)
-![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/react-native-desafio7-novo.svg)
-![](https://img.shields.io/github/repo-size/osvaldokalvaitir/react-native-desafio7-novo.svg?color=blueviolet)
-[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
-![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+<h3 align="center">
+  React Native - GoStack 9 Challenge 7
+</h3>
 
-Aplicação Rocketshoes usando Redux, Redux-Saga, Immer, React Navigation, React Navigation Stack, styled-components, React Native Vector Icons e polished.
+<p align="center">
+  :shoe: Rocketshoes Application using Redux, Redux-Saga, Immer, React Navigation, React Navigation Stack, styled-components, React Native Vector Icons, polished, Reactotron and consuming the features of the Json Server API
+</p>
 
-## Desafio 07. Arquitetura Flux
+<p align="center">
+  :muscle: Click <a href="/.github/docs/challenge.md">here</a> to see the challenge description
+</p>
 
-Nesse desafio você migrará o projeto de e-commerce criado na web para dispositivos móveis utilizando React Native. O projeto terá as mesmas funcionalidades que o projeto web mas deve possuir uma interface mobile.
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osvaldokalvaitir/react-native-gostack9-challenge7.svg?color=00A83A">
 
-### Um pouco sobre as ferramentas
+  <img alt="GitHub language top" src="https://img.shields.io/github/languages/top/osvaldokalvaitir/react-native-gostack9-challenge7.svg?color=00A83A">
 
-Utilize ESLint, Prettier, EditorConfig, React Navigation e todas outras ferramentas que vimos até aqui no mundo do React Native.
+  <a href="https://kalvaitir.com/">
+    <img alt="Made by Kalvaitir" src="https://img.shields.io/badge/made%20by-Kalvaitir-00A83A">
+  </a>
 
-### Layout
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-00A83A">
+</p>
 
-O layout do projeto está em anexo com esse desafio. O arquivo `.sketch` (no diretório `.github/assets`) pode ser aberto no Figma, que é uma ferramenta de prototipação online.
+<p align="center">
+  <a href="#iphone-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#wrench-install-and-run">Install and run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#memo-license">License</a>
+</p>
 
-### Resultado:
+## :iphone: Demo
 
-<img src=".github/assets/demo.gif" height="400">
+![Demo](/.github/assets/demo.gif)
 
-## Índice
+## :wrench: Install and run
 
-- [Capturas de Tela](#capturas-de-tela)
+Open terminal:
 
-  - [Home](#home)
+```sh
+# Clone this repo
+git clone https://github.com/osvaldokalvaitir/react-native-gostack9-challenge7
 
-  - [Carrinho](#carrinho)
+# Entry in folder
+cd react-native-gostack9-challenge7
 
-- [Desenvolvimento](#desenvolvimento)
+# Install deps with npm or yarn
+npm install | yarn
 
-  - [Configuração do Ambiente](#configuração-do-ambiente)
+# Launch the app on android with react-native or yarn
+react-native run-android | yarn android
 
-  - [Instalação do Projeto](#instalação-do-projeto)
+# Launch the app on ios with react-native or yarn
+react-native run-ios | yarn ios
+```
 
-  - [Execução do Projeto](#execução-do-projeto)
+## :memo: License
 
-- [Utilizados no Projeto](#utilizados-no-projeto)
+This project is under the MIT license. See [LICENSE](/LICENSE) for more information.
 
-  - [Bibliotecas](#bibliotecas)
+---
 
-  - [APIs](#apis)
-
-  - [Ferramentas](#ferramentas)
-
-## Capturas de Tela
-
-### Home
-
-![Home](/.github/assets/home2.png)
-Esta é a primeira tela, onde encontram-se todos os produtos vindos da API numa listagem horizontal, podendo adicionar os produtos no carrinho.
-
-### Carrinho
-
-![Cart](/.github/assets/cart2.png)
-Nesta tela, encontram-se todos os produtos que são adicionados ao carrinho, podendo alterar a quantidade ou excluir o produto e também voltar para a página inicial.
-
-## Desenvolvimento
-
-### Configuração do Ambiente
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga `Configuração de Ambiente`.
-
-### Instalação do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Instalação de Projeto`.
-
-### Execução do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md) e siga `Execução de Projeto para Desenvolvimento`.
-
-## Utilizados no Projeto
-
-### Bibliotecas
-
-- [Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
-
-- [babel-eslint](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/babel-eslint.md)
-
-- [ESLint](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint.md)
-
-- [eslint-config-prettier](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-config-prettier.md)
-
-- [eslint-plugin-prettier](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-plugin-prettier.md)
-
-- [Immer](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/immer.md)
-
-- [JSON Server](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/json-server.md)
-
-- [Intl.js](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/intl.md)
-
-- [polished](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/polished.md)
-
-- [Prettier](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/prettier.md)
-
-- [React Native Gesture Handler](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-gesture-handler.md)
-
-- [React Native Vector Icons](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-vector-icons.md)
-
-- [React Navigation](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-navigation.md)
-
-- [React Navigation Stack](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-navigation-stack.md)
-
-- [React Redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-redux.md)
-
-- [react-native-cli](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md)
-
-- [reactotron-react-native](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/reactotron-react-native.md)
-
-- [reactotron-redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/reactotron-redux.md)
-
-- [reactotron-redux-saga](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/reactotron-redux-saga.md)
-
-- [Redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/redux.md)
-
-- [Redux-Saga](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/redux-saga.md)
-
-- [styled-components](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/styled-components.md)
-
-### APIs
-
-- **API do Json Server**
-
-  - **Rotas**
-
-    - Produtos
-
-      - Busca dados de todos os produtos
-
-    - Estoque
-
-      - Busca estoque de um produto
-
-### Ferramentas
-
-- [Reactotron](https://github.com/osvaldokalvaitir/projects-settings/blob/master/inspector/reactotron.md)
+<p align="center">
+Developed with 💚 by <a href="https://www.linkedin.com/in/osvaldokalvaitir">Osvaldo Kalvaitir Filho</a>
+</p>
